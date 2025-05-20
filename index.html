@@ -134,63 +134,15 @@
 	      </div>
 	    </div>
 	  </nav>
+	  
+
 	  <section id="home-section" class="hero">
-  <div class="home-slider owl-carousel">
-    <div class="slider-item">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row d-flex no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true" style="height: 100vh;">
-          <!-- Removed the image div here -->
-
-          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax="properties: { translateY: '0%' }" style="flex-basis: 100%; justify-content: center; text-align: center; flex-direction: column;">
-            <div class="text">
-              <span class="subheading">Hello!</span>
-              <h1 class="mb-4 mt-3">I'm <span>Sadnya Kolhe</span></h1>
-
-              <!-- Element to contain animated typing -->
-              <span id="typing-animation"></span>
-
-              <script>
-                const typingAnimationElement = document.getElementById('typing-animation');
-                const typingTexts = [
-                  'Data Analyst',
-                  'Insightful Storyteller',
-                  'Driven Decision Maker'
-                ];
-
-                function playTypingAnimation(text) {
-                  for (let i = 0; i < text.length; i++) {
-                    setTimeout(() => {
-                      typingAnimationElement.textContent += text[i];
-                    }, i * 200);
-                  }
-                  setTimeout(() => {
-                    typingAnimationElement.textContent = '';
-                    playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-                  }, text.length * 200 + 800); // Added a small pause before next animation
-                }
-
-                playTypingAnimation(typingTexts[0]);
-              </script>
-
-              <br><br>
-              <h2>Data Analyst</h2>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
 	       <div class="slider-item ">
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/remove_bg.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/about-me.png);">
 	          	 <div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -247,7 +199,7 @@
 	        </div>
 	      </div>
 		</div>
-    </section> -->
+    </section> 
 
 
 
